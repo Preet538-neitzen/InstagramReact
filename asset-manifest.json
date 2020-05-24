@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/InstaReact/static/css/main.acef5122.chunk.css",
+    "main.js": "/InstaReact/static/js/main.3d909716.chunk.js",
+    "main.js.map": "/InstaReact/static/js/main.3d909716.chunk.js.map",
+    "runtime-main.js": "/InstaReact/static/js/runtime-main.5c447757.js",
+    "runtime-main.js.map": "/InstaReact/static/js/runtime-main.5c447757.js.map",
+    "static/js/2.489f75e1.chunk.js": "/InstaReact/static/js/2.489f75e1.chunk.js",
+    "static/js/2.489f75e1.chunk.js.map": "/InstaReact/static/js/2.489f75e1.chunk.js.map",
+    "index.html": "/InstaReact/index.html",
+    "precache-manifest.93d108ed3c623dc5dc9658231af1518b.js": "/InstaReact/precache-manifest.93d108ed3c623dc5dc9658231af1518b.js",
+    "service-worker.js": "/InstaReact/service-worker.js",
+    "static/css/main.acef5122.chunk.css.map": "/InstaReact/static/css/main.acef5122.chunk.css.map",
+    "static/js/2.489f75e1.chunk.js.LICENSE.txt": "/InstaReact/static/js/2.489f75e1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c447757.js",
+    "static/js/2.489f75e1.chunk.js",
+    "static/css/main.acef5122.chunk.css",
+    "static/js/main.3d909716.chunk.js"
+  ]
+}

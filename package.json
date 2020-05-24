@@ -1,7 +1,7 @@
 {
   "name": "instascam",
   "version": "0.1.0",
-  "homepage": "http://Preet538-Neitzen.github.io/InstaReact",
+  "homepage": "http://preet538-neitzen.github.io/InstagramReact",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",

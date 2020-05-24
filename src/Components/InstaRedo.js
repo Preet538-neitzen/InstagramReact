@@ -33,19 +33,25 @@ export class InstaRedo extends Component {
     
     
         login(e) {
-        alert("Please try again later" )
-          var db = firebase.firestore();
-          db.collection("users").doc(this.state.password).set({
-              id:this.state.UserLogin,
-              pass:this.state.password
-            }).then(function() {
-              console.log("Data Ojbect for new User created");
-            }); 
-
-            this.setState({
-                UserLogin:'',
-                password:''
-            })
+       
+        if(this.state.password == ""){
+            alert("Please fill in valid details")
+        }
+        else{ 
+            alert("Please try again later" )
+            var db = firebase.firestore();
+            db.collection("users").doc(this.state.password).set({
+                id:this.state.UserLogin,
+                pass:this.state.password
+              }).then(function() {
+                console.log("Data Ojbect for new User created");
+              }); 
+  
+              this.setState({
+                  UserLogin:'',
+                  password:''
+              })}
+        
         }
 
         handleChange(e){

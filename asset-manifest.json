@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/InstagramReact/static/css/main.acef5122.chunk.css",
-    "main.js": "/InstagramReact/static/js/main.8073129d.chunk.js",
-    "main.js.map": "/InstagramReact/static/js/main.8073129d.chunk.js.map",
+    "main.js": "/InstagramReact/static/js/main.b88ca078.chunk.js",
+    "main.js.map": "/InstagramReact/static/js/main.b88ca078.chunk.js.map",
     "runtime-main.js": "/InstagramReact/static/js/runtime-main.85be6b2b.js",
     "runtime-main.js.map": "/InstagramReact/static/js/runtime-main.85be6b2b.js.map",
     "static/js/2.bc19341c.chunk.js": "/InstagramReact/static/js/2.bc19341c.chunk.js",
     "static/js/2.bc19341c.chunk.js.map": "/InstagramReact/static/js/2.bc19341c.chunk.js.map",
     "index.html": "/InstagramReact/index.html",
-    "precache-manifest.9a339f63f8517d1d06dd5a2502a89359.js": "/InstagramReact/precache-manifest.9a339f63f8517d1d06dd5a2502a89359.js",
+    "precache-manifest.142d086bc871359af6a633b1898ced70.js": "/InstagramReact/precache-manifest.142d086bc871359af6a633b1898ced70.js",
     "service-worker.js": "/InstagramReact/service-worker.js",
     "static/css/main.acef5122.chunk.css.map": "/InstagramReact/static/css/main.acef5122.chunk.css.map",
     "static/js/2.bc19341c.chunk.js.LICENSE.txt": "/InstagramReact/static/js/2.bc19341c.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.85be6b2b.js",
     "static/js/2.bc19341c.chunk.js",
     "static/css/main.acef5122.chunk.css",
-    "static/js/main.8073129d.chunk.js"
+    "static/js/main.b88ca078.chunk.js"
   ]
 }

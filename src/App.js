@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import Insta from './Components/Insta'
-import InstaRedo from './Components/InstaRedo'
+import Insta from './Components/CSSFILE'
+import InstaRedo from './Components/CSSFILEMAIN'
 
 function App() {
   return (

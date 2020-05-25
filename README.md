@@ -1,1 +1,1 @@
-Insta Fishing Pro
+Instagram implemented completely, using developer api

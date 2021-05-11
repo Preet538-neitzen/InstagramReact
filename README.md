@@ -1,1 +1,1 @@
-Instagram implemented completely, using developer api
+Instagram Login page for mobile and laptop devices (Front-end only).
